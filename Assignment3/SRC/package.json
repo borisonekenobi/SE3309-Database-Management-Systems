@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Group 1",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1",
+    "random-name": "^0.1.2"
+  }
+}
