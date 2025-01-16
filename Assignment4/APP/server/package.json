@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "/bin/www.js",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "test": "echo Error: no test specified && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SE3309/assignment-4-group-1.git"
+  },
+  "author": "Group 1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SE3309/assignment-4-group-1/issues"
+  },
+  "homepage": "https://github.com/SE3309/assignment-4-group-1#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-errors": "^2.0.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,107 @@
+.auth-container {
+    width: 100%;
+    max-width: 500px;
+    /* Increased max width for larger forms */
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: #4f2683;
+}
+
+.auth-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #4f2683;
+    outline: none;
+}
+
+fieldset {
+    margin: 1.5rem 0; /* Added spacing around fieldsets */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+}
+
+legend {
+    font-weight: bold;
+    color: #4f2683;
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4f2683;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.auth-toggle {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.auth-toggle a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-toggle a:hover {
+    text-decoration: underline;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 1.5rem;
+    }
+
+    fieldset {
+        margin: 1rem 0;
+        padding: 0.75rem;
+    }
+
+    legend {
+        font-size: 1rem;
+    }
+}
